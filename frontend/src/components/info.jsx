@@ -26,8 +26,8 @@ const data = [
 ];
 export default function Info() {
   return (
-    <div className="bg-teal-900 h-[92vh] ">
-      <h1 className="text-3xl font-bold text-white text-center py-5 underline decoration-4 decoration-white pb-10">
+    <div className="bg-teal-900 h-[92vh] relative">
+      <h1 className="text-4xl font-bold text-white text-center py-5 underline decoration-4 decoration-white pb-10">
         Research Background
       </h1>
       <div className="flex flex-col gap-4">
@@ -40,6 +40,11 @@ export default function Info() {
           />
         ))}
       </div>
+      <img
+        src="/wave-haikei(6).svg"
+        alt="Decorative Waves"
+        className="absolute top-full w-full h-auto"
+      />
     </div>
   );
 }
