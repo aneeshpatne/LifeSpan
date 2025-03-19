@@ -1,9 +1,13 @@
 import { Dot, Sparkles, Cloud, Book } from "lucide-react";
-import Header from "./header";
 
 export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center gap-5 h-[80vh]">
+      <img
+        src="/wave-haikei.svg"
+        alt="Decorative wave"
+        className="absolute top-0 left-0 w-full h-auto object-conver z-0"
+      />
       <div className="flex items-center justify-center gap-2">
         <Badge name={"Research"} Icon={Book} />
         <Badge name={"Data Driven"} Icon={Sparkles} />
