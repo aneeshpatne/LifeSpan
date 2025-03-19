@@ -20,7 +20,7 @@ export default function Hero() {
         </p>
       </div>
       <img
-        src="/wave-haikei(3).svg"
+        src="/wave-haikei(5).svg"
         alt="Decorative wave"
         className="absolute bottom-0 left- 0 w-full h-auto z-0"
       />
