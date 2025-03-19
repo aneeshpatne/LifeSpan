@@ -2,12 +2,7 @@ import { Dot, Sparkles, Cloud, Book } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center gap-5 h-[80vh]">
-      <img
-        src="/wave-haikei.svg"
-        alt="Decorative wave"
-        className="absolute top-0 left-0 w-full h-auto object-conver z-0"
-      />
+    <div className="flex flex-col items-center justify-center gap-5 h-[100vh]">
       <div className="flex items-center justify-center gap-2">
         <Badge name={"Research"} Icon={Book} />
         <Badge name={"Data Driven"} Icon={Sparkles} />
@@ -24,6 +19,11 @@ export default function Hero() {
           revealed and how we can fight back.
         </p>
       </div>
+      <img
+        src="/wave-haikei(3).svg"
+        alt="Decorative wave"
+        className="absolute bottom-0 left- 0 w-full h-auto z-0"
+      />
     </div>
   );
 }
