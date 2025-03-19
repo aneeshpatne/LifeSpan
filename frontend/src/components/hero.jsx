@@ -13,11 +13,16 @@ export default function Hero() {
         <Badge name={"Data Driven"} Icon={Sparkles} />
         <Badge name={"Climate Impact"} Icon={Cloud} />
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
         <h1 className="font-bold text-5xl text-center">
           How Much Life Are You <br />
           <span className="text-green-800">Losing To Air Pollution?</span>
         </h1>
+        <p className="w-[55vw] text-lg text-center text-gray-700 py-2">
+          Air pollution is silently stealing years from our lives. Through data
+          visualization and research, The true cost of the air we breathe can be
+          revealed and how we can fight back.
+        </p>
       </div>
     </div>
   );
