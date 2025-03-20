@@ -4,6 +4,7 @@ import Hero from "@/components/hero";
 import Info from "@/components/info";
 import Journey from "@/components/journey";
 import Results from "@/components/results";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       <Info />
       <Journey />
       <Results />
+      <Footer />
     </>
   );
 }
