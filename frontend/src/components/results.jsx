@@ -144,9 +144,7 @@ export default function Results() {
               </CardHeader>
               <CardContent>
                 {/* Placeholder for your graph */}
-                <div className="flex h-80 items-center justify-center border-dashed border-2 border-gray-300">
-                  <p className="text-gray-500">Graph Placeholder</p>
-                </div>
+                <div className="flex h-80 items-center justify-center  border-2 border-gray-300"></div>
               </CardContent>
             </Card>
 
@@ -198,9 +196,7 @@ export default function Results() {
               </CardHeader>
               <CardContent>
                 {/* Placeholder for your scatter graph */}
-                <div className="flex h-80 items-center justify-center border-dashed border-2 border-gray-300">
-                  <p className="text-gray-500">Graph Placeholder</p>
-                </div>
+                <div className="flex h-80 items-center justify-center border-dashed border-2 border-gray-300"></div>
               </CardContent>
             </Card>
 
