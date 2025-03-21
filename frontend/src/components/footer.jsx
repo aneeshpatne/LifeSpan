@@ -106,9 +106,9 @@ export default function Footer() {
       </div>
       <footer className="relative">
         <img
-          src="wave-haikei(6).svg"
-          alt="wave"
-          className="absolute top-full w-full h-20 object-cover"
+          src="/wave-haikei(5).svg"
+          alt="Decorative wave"
+          className="absolute top-full left- 0 w-full h-auto z-0"
         />
       </footer>
     </>
