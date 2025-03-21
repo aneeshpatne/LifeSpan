@@ -33,12 +33,12 @@ export default function Journey() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-center py-5 mb-16 text-gray-800 relative">
           Research Background
-          <span className="block h-1 w-32 bg-gradient-to-r from-teal-700 to-teal-900 mx-auto mt-6"></span>
+          <span className="block h-1 w-32 bg-gradient-to-r from-emerald-400 to-emerald-500 mx-auto mt-6"></span>
         </h1>
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-6 top-8 bottom-0 w-0.5 bg-gradient-to-b from-teal-700 to-teal-900 hidden md:block"></div>
+          <div className="absolute left-6 top-8 bottom-0 w-0.5 bg-gradient-to-b from-emerald-400 to-emerald-500  hidden md:block"></div>
 
           <div className="flex flex-col gap-16">
             {data.map((item, index) => (
@@ -61,7 +61,7 @@ function Details({ number, heading, details, index }) {
   return (
     <div className="relative hover:translate-y-[-4px] transition-transform duration-300">
       <div className="flex flex-col md:flex-row items-start gap-8 group">
-        <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-teal-700 to-teal-900 flex items-center justify-center text-white font-bold text-xl shrink-0 z-10 shadow-lg shadow-teal-100">
+        <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600  flex items-center justify-center text-white font-bold text-xl shrink-0 z-10 shadow-lg shadow-teal-100">
           {number}
         </div>
 
